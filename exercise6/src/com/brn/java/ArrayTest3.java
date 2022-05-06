@@ -18,7 +18,26 @@ public class ArrayTest3 {
 		String[][] arr3 = new String[3][2];//dynamic 2
 		String[][] arr4 = new String[3][];//dynamic 2
 		
-		System.out.println(arr2[0][2]);
+		System.out.println(arr2[0][2]);//output a specific value
+		
+		//Acquire the length/number of array
+		System.out.println(arr2.length);//3
+		System.out.println(arr2[2].length);//2
+		
+		//output all values
+		for(int i = 0;i < arr2.length;i++) {
+			
+			for(int j = 0;j < arr2[i].length;j++) {
+				
+				System.out.print(arr2[i][j] + " ");
+				
+			}
+			System.out.println();
+		}
+		
+		
+		
+		
 		
 
 	}
